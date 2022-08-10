@@ -1,0 +1,129 @@
+body{
+    margin: 0;
+}
+#first{
+    display: flex;
+}
+#first a{
+    flex-grow: 1;
+    height: 2rem;
+}
+
+#first a:nth-of-type(1){
+    background: black;
+}
+#first a:nth-of-type(2){
+    background: yellow;
+}
+#first a:nth-of-type(3){
+    background: cyan;
+}
+#first a:nth-of-type(4){
+    background: green;
+}
+#first a:nth-of-type(5){
+    background: red;
+}
+#first a:nth-of-type(6){
+    background: blue;
+}
+#first a:nth-of-type(7){
+    background: purple;
+}
+#first a:nth-of-type(8){
+    background: pink;
+}
+#first a:nth-of-type(9){
+    background: orange;
+}
+#first a:nth-of-type(10){
+    background: gray;   
+}
+#first a:nth-of-type(11){
+    background: white;
+}
+#first a:nth-of-type(12){
+    background: brown;
+}
+
+.major div{
+	display: block;
+	padding: 10rem 0;
+}
+.major h1{
+	text-align: center;
+	margin: 0;
+}
+.major ul{
+	display: flex;
+	justify-content: center;
+}
+.major li{
+	list-style: none;
+	padding: 0 20px;
+}
+
+/* index.html */
+.major1 div:nth-of-type(1){
+    background: sandybrown;
+}
+.major1 div:nth-of-type(2){
+    background: salmon;
+}
+.major1 div:nth-of-type(3){
+    background: darkgray;
+}
+.major1 div:nth-of-type(4){
+    background: aquamarine;
+}
+.major1 div:nth-of-type(5){
+    background: lightgray;
+}
+.major1 div:nth-of-type(6){
+    background: pink;
+}
+.major1 div:nth-of-type(7){
+    background: navy;
+}
+.major1 div:nth-of-type(8){
+    background: linen;
+}
+.major1 div:nth-of-type(9){
+    background: dimgray;
+}
+.major1 div:nth-of-type(10){
+    background: mediumseagreen;   
+}
+
+
+/* index2.html */
+.major2 div:nth-of-type(1){
+    background: sandybrown;
+}
+.major2 div:nth-of-type(2){
+    background: salmon;
+}
+.major2 div:nth-of-type(3){
+    background: darkgray;
+}
+.major2 div:nth-of-type(4){
+    background: aquamarine;
+}
+.major2 div:nth-of-type(5){
+    background: lightgray;
+}
+.major2 div:nth-of-type(6){
+    background: pink;
+}
+.major2 div:nth-of-type(7){
+    background: navy;
+}
+.major2 div:nth-of-type(8){
+    background: linen;
+}
+.major2 div:nth-of-type(9){
+    background: dimgray;
+}
+.major2 div:nth-of-type(10){
+    background: mediumseagreen;   
+}
